@@ -16,6 +16,10 @@ Open `index.html` in any browser, or use the hosted GitHub Pages version. Fill t
 
 Your inputs stay in your browser. The tool has no analytics and no tracking. The only network request it makes is loading the image URL you enter, so you can preview the social card.
 
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
+
 ## License
 
 MIT. Copyright 0xelitesystem 2026.
