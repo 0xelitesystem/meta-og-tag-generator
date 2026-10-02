@@ -8,13 +8,32 @@ A single-file browser tool that turns a page title, description, and image into 
 
 Enter your title, meta description, canonical URL, site name, image URL, and Twitter handle. The tool shows a search-result preview and a social-card preview as you type, counts your title and description lengths against the usual limits with color warnings, and generates a complete, copyable block of meta and Open Graph and Twitter Card tags.
 
-## How to use it
+## Use
 
 Open `index.html` in any browser, or use the hosted GitHub Pages version. Fill the fields, watch the previews, and copy the generated tags into the `<head>` of your page. The image preview loads the image URL you provide so you can check the crop.
+
+## Why this exists
+
+Meta, Open Graph and Twitter Card tags are easy to get slightly wrong and hard to check until a link is shared. This tool generates the full block and previews the search result and the social card as you type. It is one HTML file that runs in your browser, with no tracking and no server, under the MIT license.
 
 ## Privacy
 
 Your inputs stay in your browser. The tool has no analytics and no tracking. The only network request it makes is loading the image URL you enter, so you can preview the social card.
+
+Nothing you enter is saved; the page writes nothing to `localStorage`.
+
+## Run locally
+
+```bash
+git clone https://github.com/0xelitesystem/meta-og-tag-generator
+cd meta-og-tag-generator
+```
+
+Open `index.html` in any modern browser. Or serve the folder with `python -m http.server 8000` and visit http://localhost:8000/.
+
+## Build
+
+No build step. The whole tool is one `index.html` file with its CSS and JavaScript inline, and nothing to install.
 
 ## More
 
